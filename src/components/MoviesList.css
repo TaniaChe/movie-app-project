@@ -1,0 +1,30 @@
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	margin: 40px auto;
+	align-items: center;
+	color: white;
+}
+
+.card-container {
+	border: 1px solid rgb(246, 243, 243);
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px whitesmoke;
+	/* box-shadow: 5px 5px 5px black; */
+	height: 250px;
+	width: 200px;
+	padding: 5px;
+}
+
+.card-container img {
+	height: 70%;
+}
+
+.favotite {
+	cursor: pointer;
+}
+.red{
+	color: red
+}
